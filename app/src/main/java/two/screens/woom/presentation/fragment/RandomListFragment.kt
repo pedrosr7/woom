@@ -82,13 +82,6 @@ class RandomListFragment : Fragment() {
             view  to "secondTransitionName"
         )
 
-        /*imageView_picture_male.startAnimationWithOffset(R.anim.bounce, 0)
-        constrainLayout_random_list.startAnimationWithOffset(R.anim.fade_out, 100)
-
-        Handler().postDelayed({
-            view?.findNavController()?.navigate(R.id.randomItemFragment, null, null, null)
-        }, 1000)*/
-
         this.view?.findNavController()?.navigate(R.id.randomItemFragment, null, null, extras )
     }
 
