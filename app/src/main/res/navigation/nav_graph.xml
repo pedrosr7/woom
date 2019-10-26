@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/randomListFragment">
+
+    <fragment
+        android:id="@+id/randomListFragment"
+        android:name="two.screens.woom.presentation.fragment.RandomListFragment"
+        android:label="RandomListFragment" >
+        <action
+            android:id="@+id/action_randomListFragment_to_randomItemFragment"
+            app:destination="@id/randomItemFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/randomItemFragment"
+        android:name="two.screens.woom.presentation.fragment.RandomItemFragment"
+        android:label="RandomItemFragment" />
+
+</navigation>
