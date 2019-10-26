@@ -7,7 +7,7 @@ import two.screens.woom.domain.model.RandomItem
 interface RandomRepository {
 
     /**
-     * Function that sign up a user
+     * Function that get the random list
      * @param page the current page
      * @param onResult Callback that returns the result object that contains [Failure] and [List<RandomItem>]
      *
