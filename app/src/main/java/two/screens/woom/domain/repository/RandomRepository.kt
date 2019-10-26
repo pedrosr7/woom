@@ -9,7 +9,6 @@ interface RandomRepository {
     /**
      * Function that get the random list
      * @param page the current page
-     * @param onResult Callback that returns the result object that contains [Failure] and [List<RandomItem>]
      *
      */
      suspend fun getRandomList(page: Int): Either<Failure, List<RandomItem>>
